@@ -1,5 +1,7 @@
 # Dockerfile for Mastodon Alliance Bot
 
+[![Build Status](https://travis-ci.org/kuropen/mastodon-alliance-bot-docker.svg?branch=master)](https://travis-ci.org/kuropen/mastodon-alliance-bot-docker)
+
 This is a Dockerfile for running [Mastodon alliance bot](https://github.com/wd-shiroma/mastodon-alliance-bot).
 
 ## Configuration
