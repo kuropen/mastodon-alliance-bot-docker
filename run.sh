@@ -2,6 +2,6 @@
 
 cd /bot
 git pull -q
-npm test || true
+npm test
 node scripts/streaming.js
 
