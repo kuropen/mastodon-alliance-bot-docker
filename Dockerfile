@@ -4,7 +4,7 @@ ENV TINI_VERSION v0.17.0
 ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini /usr/local/bin/tini
 RUN chmod +x /usr/local/bin/tini
 
-RUN git clone https://github.com/wd-shiroma/mastodon-federation-bot /bot
+RUN git clone https://github.com/wd-shiroma/mastodon-alliance-bot /bot
 
 WORKDIR /bot
 VOLUME /bot/config
